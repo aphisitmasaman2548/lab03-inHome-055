@@ -13,7 +13,7 @@ class MyParticipationsScreen extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // ส่วนที่ 1: Header Section (จะทำในขั้นที่ 3)
           _buildHeaderSection(),
@@ -35,7 +35,7 @@ class MyParticipationsScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'ชื่อผู้ใช้: Aphisit Masaman', // นิสิตสามารถเปลี่ยนเป็นชื่อตัวเองได้
+            'ชื่อผู้ใช้: รหัสนิสิต 6720210055 (Aphisit Masaman)', // นิสิตสามารถเปลี่ยนเป็นชื่อตัวเองได้
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
